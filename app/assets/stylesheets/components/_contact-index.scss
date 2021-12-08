@@ -39,11 +39,16 @@
 .contact-card-sm .contact-card-sm-actions i {
     font-size: 20px;
     color: #c7c7c7;
+    transition: ease .3s;
 }
 
  .contact-card-sm .contact-card-sm-actions {
    opacity: 0;
    transition: ease .3s;
+ }
+
+ .contact-card-sm .contact-card-sm-actions i:hover {
+     color: #555555;
  }
 
  .contact-card-sm:hover .contact-card-sm-actions {

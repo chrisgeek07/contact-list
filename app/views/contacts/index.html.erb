@@ -16,12 +16,12 @@
 
                 <div class="contact-card-sm-actions">
 
-                <%= link_to icon('fas', 'edit'), edit_contact_path(contact)  %>
+                    <%= link_to icon('fas', 'edit'), edit_contact_path(contact)  %>
 
-                <%= link_to icon('fas', 'trash'), 
-                contact_path(contact),
-                method: :delete,
-                data: { confirm: "Are you sure ?" } %>
+                    <%= link_to icon('fas', 'trash'), 
+                    contact_path(contact),
+                    method: :delete,
+                    data: { confirm: "Are you sure ?" } %>
 
                 </div>
             </div>
