@@ -1,0 +1,8 @@
+<%= simple_form_for(@contact) do |f| %>
+    <%= f.input :name %>
+    <%= f.input :address %>
+    <%= f.input :country %>
+    <%= f.input :phone %>
+    <%= f.button :submit, class: "btn btn-primary" %>
+    <%= link_to "Cancel", contacts_path, class: "btn btn-primary" %>
+<% end %>

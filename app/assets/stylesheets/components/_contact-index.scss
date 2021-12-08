@@ -1,0 +1,60 @@
+.contact-head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.contact-head h1 {
+    margin: 0;
+}
+
+.contact-card-sm {
+    background: white;
+    padding: 15px;
+    margin-top: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    transition: ease .3s;
+}
+
+.contact-card-sm-content {
+    display: flex;
+    align-items: center;
+    color: #333;
+    
+}
+
+.contact-card-sm .contact-card-sm-content i {
+    font-size: 30px;
+    color: #333;
+}
+
+.contact-card-sm p {
+    margin: 0;
+    margin-left: 15px;
+}
+
+.contact-card-sm .contact-card-sm-actions i {
+    font-size: 20px;
+    color: #c7c7c7;
+    transition: ease .3s;
+}
+
+ .contact-card-sm .contact-card-sm-actions {
+   opacity: 0;
+   transition: ease .3s;
+ }
+
+ .contact-card-sm .contact-card-sm-actions i:hover {
+     color: #555555;
+ }
+
+ .contact-card-sm:hover .contact-card-sm-actions {
+     opacity: 1;
+ }
+
+ .contact-card-sm:hover {
+     transform: scale(1.025);
+ }
