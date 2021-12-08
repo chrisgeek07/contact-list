@@ -1,4 +1,18 @@
 .contact-card {
     background: white;
-    padding: 10px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.contact-card i {
+    font-size: 90px;
+}
+
+.contact-card-info {
+    margin-left: 20px;
+}
+
+.contact-card-info p, .contact-card-info  h4 {
+    margin: 0;
 }
