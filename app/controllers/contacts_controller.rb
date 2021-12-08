@@ -6,4 +6,8 @@ class ContactsController < ApplicationController
   def new
     @contact = Contact.new
   end
+
+  def show
+    @contact = Contact.find(params[:id])
+  end
 end
