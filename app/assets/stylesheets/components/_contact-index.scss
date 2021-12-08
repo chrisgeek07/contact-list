@@ -1,0 +1,21 @@
+.contact-card-sm {
+    background: white;
+    padding: 15px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.contact-card-sm-content {
+    display: flex;
+    align-items: center;
+}
+
+.contact-card-sm i {
+    font-size: 30px;
+    color: #333;
+}
+
+.contact-card-sm p {
+    margin: 0;
+    margin-left: 15px;
+}
