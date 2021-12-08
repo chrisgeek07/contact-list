@@ -12,18 +12,34 @@
     opacity: 1;
   }
   
-  .btn-flat {
+.btn-flat {
     color: white;
     padding: 8px 24px;
     border-radius: 4px;
     background: #1EDD88;
     transition: background 0.3s ease;
-  }
+}
   
-  .btn-flat:hover {
+.btn-flat:hover {
     background: #1BCB7F;
     color: white;
+}
+
+.btn-contact {
+      color: white;
+      background: #167FFB;
+      padding: 10px 20px;
+      font-weight: 700;
+      border-radius: 4px;
+      transition: all .3s ease;
+      text-decoration: none;
   }
+
+.btn-contact:hover {
+    color: white;
+    text-decoration: none;
+    border: none;
+}
   
   .btn-gradient {
     color: white;
