@@ -26,3 +26,12 @@
     font-size: 20px;
     color: #c7c7c7;
 }
+
+ .contact-card-sm .contact-card-sm-actions {
+   opacity: 0;
+   transition: ease .3s;
+ }
+
+ .contact-card-sm:hover .contact-card-sm-actions {
+     opacity: 1;
+ }
