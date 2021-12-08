@@ -1,4 +1,8 @@
 <div class="container">
+    <div class="contact-head">
+        <h1>All contacts</h1>
+        <%= link_to "Create new contact", new_contact_path, class:"btn btn-primary"  %>
+    </div>
     
     <% @contacts.each do |contact|%>
 

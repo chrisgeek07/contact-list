@@ -1,3 +1,14 @@
+.contact-head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.contact-head h1 {
+    margin: 0;
+}
+
 .contact-card-sm {
     background: white;
     padding: 15px;
