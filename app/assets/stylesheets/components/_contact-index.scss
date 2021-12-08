@@ -3,6 +3,8 @@
     padding: 15px;
     margin-top: 10px;
     border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .contact-card-sm-content {
@@ -10,7 +12,7 @@
     align-items: center;
 }
 
-.contact-card-sm i {
+.contact-card-sm .contact-card-sm-content i {
     font-size: 30px;
     color: #333;
 }
@@ -18,4 +20,9 @@
 .contact-card-sm p {
     margin: 0;
     margin-left: 15px;
+}
+
+.contact-card-sm .contact-card-sm-actions i {
+    font-size: 20px;
+    color: #c7c7c7;
 }
