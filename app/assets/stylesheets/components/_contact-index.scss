@@ -5,11 +5,14 @@
     border-radius: 5px;
     display: flex;
     justify-content: space-between;
+    transition: ease .3s;
 }
 
 .contact-card-sm-content {
     display: flex;
     align-items: center;
+    color: #333;
+    
 }
 
 .contact-card-sm .contact-card-sm-content i {
@@ -34,4 +37,8 @@
 
  .contact-card-sm:hover .contact-card-sm-actions {
      opacity: 1;
+ }
+
+ .contact-card-sm:hover {
+     transform: scale(1.025);
  }

@@ -1,23 +1,29 @@
 <div class="container">
     
     <% @contacts.each do |contact|%>
-        <div class="contact-card-sm">
-            <div class="contact-card-sm-content">
-              <i class="fas fa-user-circle"></i>
-              <p><%= contact.name%></p>
+
+        <%= link_to contact_path(contact), class:"text-decoration-none" do %>
+
+            <div class="contact-card-sm">
+                <div class="contact-card-sm-content">
+                <i class="fas fa-user-circle"></i>
+                <p><%= contact.name%></p>
+                </div>
+
+                <div class="contact-card-sm-actions">
+
+                <%= link_to icon('fas', 'edit'), edit_contact_path(contact)  %>
+
+                <%= link_to icon('fas', 'trash'), 
+                contact_path(contact),
+                method: :delete,
+                data: { confirm: "Are you sure ?" } %>
+
+                </div>
             </div>
 
-            <div class="contact-card-sm-actions">
+        <% end %>
 
-              <%= link_to icon('fas', 'edit'), edit_contact_path(contact)  %>
-
-              <%= link_to icon('fas', 'trash'), 
-              contact_path(contact),
-              method: :delete,
-              data: { confirm: "Are you sure ?" } %>
-
-            </div>
-        </div>
     <% end %>
 
 </div>
